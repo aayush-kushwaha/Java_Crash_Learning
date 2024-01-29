@@ -12,5 +12,8 @@ public class SumFirstNNumbers {
         }
         
         System.out.println("The sum is: " + sum);
+        // Close the Scanner to avoid resource leak
+        sc.close();
+
     }
 }

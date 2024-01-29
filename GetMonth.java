@@ -31,5 +31,7 @@ public class GetMonth {
             case 12: System.out.println("December");
             break;
         }
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

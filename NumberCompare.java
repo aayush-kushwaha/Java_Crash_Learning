@@ -16,5 +16,7 @@ public class NumberCompare {
         else {
             System.out.println("b is greater than a.");
         }
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

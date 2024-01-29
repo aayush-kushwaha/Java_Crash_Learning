@@ -25,5 +25,7 @@ public class SwitchCondition {
             case 3: System.out.println("Bonjour!");
             break;
         }
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

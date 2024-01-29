@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 import java.util.*;
 
 public class ScannerCode {
@@ -12,5 +10,7 @@ public class ScannerCode {
         // int number = sc.nextInt();
         // float number = sc.nextFloat(); 
         System.out.println("The name is " + name);
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

@@ -11,5 +11,7 @@ public class AdultFinder {
         else {
             System.out.println("You are not an adult!");
         }
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

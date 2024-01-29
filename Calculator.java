@@ -14,5 +14,7 @@ public class Calculator {
         float div = first_num / second_num;
         float modulo = first_num % second_num;
         System.out.println("The sum is " + sum + " and the difference is " + diff + " and the product is " + mul + " and the division is " + div + " and the modulo is " + modulo);
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

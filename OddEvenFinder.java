@@ -11,5 +11,7 @@ public class OddEvenFinder {
         else{
             System.out.println("The number is odd!!!");
         }
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }

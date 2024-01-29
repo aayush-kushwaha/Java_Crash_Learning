@@ -9,6 +9,7 @@ public class Lec2Q {
         int b = sc.nextInt();
         int sum = a + b;
         System.out.println("The sum is: " + sum);
-        
+        // Close the Scanner to avoid resource leak
+        sc.close();
     }
 }
